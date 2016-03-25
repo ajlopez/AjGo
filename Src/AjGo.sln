@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjGo", "AjGo\AjGo.csproj", "{B34853E4-2E3F-4231-B4D1-D8B9132A09B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjGo.Tests", "AjGo.Tests\AjGo.Tests.csproj", "{6E68F235-3BBE-4893-86C1-7517E952A3B2}"

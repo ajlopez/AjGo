@@ -1,0 +1,14 @@
+
+To Do
+
+- Write this todo.txt :-)
+- Documentation
+- Generalized Lambda search
+- Many evaluation functions
+- Player definition
+- Pattern recognition
+- Adversarial planning
+- and a lot more...
+
+- Update to Visual Studio 2009
+

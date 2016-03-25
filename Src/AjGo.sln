@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjGo", "AjGo\AjGo.csproj", "{B34853E4-2E3F-4231-B4D1-D8B9132A09B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjGo.Tests", "AjGo.Tests\AjGo.Tests.csproj", "{6E68F235-3BBE-4893-86C1-7517E952A3B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjGo.WinForm", "AjGo.WinForm\AjGo.WinForm.csproj", "{1A6E84F5-EB36-434C-8CC3-8A8BE21BA763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B34853E4-2E3F-4231-B4D1-D8B9132A09B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34853E4-2E3F-4231-B4D1-D8B9132A09B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34853E4-2E3F-4231-B4D1-D8B9132A09B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34853E4-2E3F-4231-B4D1-D8B9132A09B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E68F235-3BBE-4893-86C1-7517E952A3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E68F235-3BBE-4893-86C1-7517E952A3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E68F235-3BBE-4893-86C1-7517E952A3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E68F235-3BBE-4893-86C1-7517E952A3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6E84F5-EB36-434C-8CC3-8A8BE21BA763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6E84F5-EB36-434C-8CC3-8A8BE21BA763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6E84F5-EB36-434C-8CC3-8A8BE21BA763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6E84F5-EB36-434C-8CC3-8A8BE21BA763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

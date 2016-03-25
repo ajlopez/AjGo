@@ -1,0 +1,89 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B34853E4-2E3F-4231-B4D1-D8B9132A09B9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AjGo</RootNamespace>
+    <AssemblyName>AjGo</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agents\Simple4Agent.cs" />
+    <Compile Include="Agents\FrontierAgent.cs" />
+    <Compile Include="Agents\Simple3Agent.cs" />
+    <Compile Include="Agents\Simple2Agent.cs" />
+    <Compile Include="Agents\RipperAgent.cs" />
+    <Compile Include="Agents\NazgulAgent.cs" />
+    <Compile Include="Agents\Liberty3KillAgent.cs" />
+    <Compile Include="Agents\Liberty2SaveAgent.cs" />
+    <Compile Include="Agents\EvaluatorAgent.cs" />
+    <Compile Include="Agents\GenKillerAgent.cs" />
+    <Compile Include="Agents\KillerAgent.cs" />
+    <Compile Include="Agents\KillStrategy.cs" />
+    <Compile Include="Agents\Liberty1KillAgent.cs" />
+    <Compile Include="Agents\Liberty2KillAgent.cs" />
+    <Compile Include="Agents\LibertyKillerAgent.cs" />
+    <Compile Include="Agents\OldSichoAgent.cs" />
+    <Compile Include="Agents\SaveAgent.cs" />
+    <Compile Include="Agents\SaveStrategy.cs" />
+    <Compile Include="Agents\SimpleKillSaveAgent.cs" />
+    <Compile Include="Agents\ZoneEvaluatorAgent.cs" />
+    <Compile Include="Color.cs" />
+    <Compile Include="Evaluators\EvaluatedGame.cs" />
+    <Compile Include="Evaluators\GameEvaluation.cs" />
+    <Compile Include="Evaluators\GamesEvaluator.cs" />
+    <Compile Include="Evaluators\ZoneEvaluator.cs" />
+    <Compile Include="Goal.cs" />
+    <Compile Include="GroupSet.cs" />
+    <Compile Include="MatchBuilder.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Group.cs" />
+    <Compile Include="GroupPosition.cs" />
+    <Compile Include="Match.cs" />
+    <Compile Include="Move.cs" />
+    <Compile Include="Point.cs" />
+    <Compile Include="PointSet.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="PositionBuilder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

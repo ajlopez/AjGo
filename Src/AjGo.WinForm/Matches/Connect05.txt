@@ -1,0 +1,4 @@
+G G Y G
+G X R X
+Y R O .
+G X . G

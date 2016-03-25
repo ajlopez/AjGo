@@ -1,0 +1,3 @@
+. O O G
+. O X X
+R X B B

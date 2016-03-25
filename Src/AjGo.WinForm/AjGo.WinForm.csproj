@@ -1,0 +1,157 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A6E84F5-EB36-434C-8CC3-8A8BE21BA763}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AjGo.WinForm</RootNamespace>
+    <AssemblyName>AjGo.WinForm</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoardImage.cs" />
+    <Compile Include="AjGoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjGoForm.Designer.cs">
+      <DependentUpon>AjGoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matches.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AjGoForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AjGoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZoneEvaluationForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ZoneEvaluationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ZoneEvaluationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZoneEvaluationForm.Designer.cs">
+      <DependentUpon>ZoneEvaluationForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AjGo\AjGo.csproj">
+      <Project>{B34853E4-2E3F-4231-B4D1-D8B9132A09B9}</Project>
+      <Name>AjGo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Matches\Border01.txt" />
+    <Content Include="Matches\Border02.txt" />
+    <Content Include="Matches\Border03.txt" />
+    <Content Include="Matches\Border04.txt" />
+    <Content Include="Matches\Connect01.txt" />
+    <Content Include="Matches\Connect02.txt" />
+    <Content Include="Matches\Border05.txt" />
+    <Content Include="Matches\Border06.txt" />
+    <Content Include="Matches\Border07.txt" />
+    <Content Include="Matches\Border08.txt" />
+    <Content Include="Matches\Border09.txt" />
+    <Content Include="Matches\Border10.txt" />
+    <Content Include="Matches\Border11.txt" />
+    <Content Include="Matches\Border12.txt" />
+    <Content Include="Matches\Border13.txt" />
+    <Content Include="Matches\Border14.txt" />
+    <Content Include="Matches\Border15.txt" />
+    <Content Include="Matches\Border16.txt" />
+    <Content Include="Matches\Border17.txt" />
+    <Content Include="Matches\Border18.txt" />
+    <Content Include="Matches\Border19.txt" />
+    <Content Include="Matches\Border20.txt" />
+    <Content Include="Matches\Border21.txt" />
+    <Content Include="Matches\Border22.txt" />
+    <Content Include="Matches\Border23.txt" />
+    <Content Include="Matches\Border24.txt" />
+    <Content Include="Matches\Border25.txt" />
+    <Content Include="Matches\Border26.txt" />
+    <Content Include="Matches\Border27.txt" />
+    <Content Include="Matches\Border28.txt" />
+    <Content Include="Matches\Contact01.txt" />
+    <Content Include="Matches\Border08b.txt" />
+    <Content Include="Matches\Cut02.txt" />
+    <Content Include="Matches\Cut01.txt" />
+    <Content Include="Matches\Point4407.txt" />
+    <Content Include="Matches\Point4406.txt" />
+    <Content Include="Matches\Point4405.txt" />
+    <Content Include="Matches\Point4404.txt" />
+    <Content Include="Matches\Point4403.txt" />
+    <Content Include="Matches\Point3402.txt" />
+    <Content Include="Matches\Point4402.txt" />
+    <Content Include="Matches\Point3401.txt" />
+    <Content Include="Matches\Point01.txt" />
+    <Content Include="Matches\Point4401.txt" />
+    <Content Include="Positions\3Liberties01.txt" />
+    <Content Include="Positions\4Liberties01.txt" />
+    <Content Include="Positions\4Liberties02.txt" />
+    <Content Include="Positions\4Liberties03.txt" />
+    <Content Include="Positions\4Border01.txt" />
+    <Content Include="Positions\4Border02.txt" />
+    <Content Include="Positions\CriticalPoint01.txt" />
+    <Content Include="Positions\Sicho02.txt" />
+    <Content Include="Positions\Sicho01.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
